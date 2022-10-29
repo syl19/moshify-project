@@ -156,6 +156,7 @@ a {
   list-style-image: url(../images/tick.svg);
   padding-left:  3rem;
   color: var(--color-headings);
+
 }
 
 .list--tick .list__item {
@@ -212,7 +213,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -300,6 +301,7 @@ a {
   border: none;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -750,8 +752,10 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
+
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -826,7 +830,8 @@ a {
 /* Footer */
 
 .block-footer {
-  opacity: .86;
+  background: #232323;
+  padding-top: 10rem;
 }
 .collapsible__footer {
   padding: 2rem;
@@ -898,8 +903,12 @@ a {
   }
 }
 
-
-
+.callout-signup {
+  width: 90vw;
+  max-width: 960px;
+  margin: 0 auto;
+  transform: translateY(5rem);
+}
 
 
 
